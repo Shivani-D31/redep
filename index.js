@@ -1,6 +1,6 @@
 const express = require("express");
-const { connection } = require("../Backend/main");
-const { userRoute } = require("../Backend/routes/UserRoute");
+const { connection } = require("./main");
+const { userRoute } = require("./routes/UserRoute");
 const { blogRoute } = require("./routes/BlogRoute");
 const { Auth } = require("./middlewares/middleware");
 const cors = require("cors");
